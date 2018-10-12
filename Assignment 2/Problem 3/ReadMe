@@ -1,0 +1,6 @@
+an implement of 3-way Quicksort for a linked list. 
+the class is called LinkedList, it has the following methods
+	LinkedList(); -- constructor
+	add(int a); -- Adds a number to the linked list
+	printList(); -- Prints the current list contents to console as comma separated values (“1,2,3”)
+	quicksort(); -- Runs 3-way quicksort
