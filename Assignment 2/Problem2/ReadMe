@@ -1,0 +1,5 @@
+merge sort algorithm whick does not use O(N) extra space to merge the two halves
+The sort is called mergeSort, and it is static
+called it with mergeSort(int[] a, int arraySize).
+	The first parameter int[] a is an array to be sorted.
+	The second parameter, int arraySize, is the size of the array int[] a.
