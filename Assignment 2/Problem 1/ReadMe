@@ -1,0 +1,6 @@
+an implement of radix sorting
+It doesn't comparing elements of the array to each other
+The sort is called with Problem1Sort(int[] a, int arraySize). the function is static
+just call Sorting1.Problem1Sort(int[] a, int arraySize) to invoke it
+	The first parameter int[] a is an array to be sorted.
+	The second parameter, int arraySize, is the size of the array int[] a.
