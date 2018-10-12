@@ -1,0 +1,5 @@
+order the array in terms of local maxima and local minima. 
+ Example: {a b c d e …}, a>=b, b=<a & b<=c, c>=d, d=<c & d=<e, e>=… etc
+ the function is called Problem4A(int[] a, int arraySize), and it's a static function
+ 	The first parameter int[] a is an array to be sorted.
+	The second parameter, int arraySize, is the size of the array int[] a.
