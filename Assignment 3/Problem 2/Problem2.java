@@ -164,6 +164,7 @@ public class BST {
 
     public void balanceTreeTwo()
     {
+        Node root = null;
         transformToList();
         int N = size;
         int M = N + 1 - (int)Math.pow(2, Math.floor(Math.log(2)/Math.log(N)));
@@ -173,15 +174,24 @@ public class BST {
         {
             if(cnt%2 == 1)
             {
-                rotateLeft(temp);
+                root = rotateLeft(temp);
                 temp = temp.right;
                 cnt++;
             }
         }
         int K = (int)Math.floor(Math.log(2)/Math.log(N)) - 1;
-        for(int i = 0; i < K; i++)
+        if(K > 1)
         {
-            rotateLeft(head);
+            for (; K > 1; K--) {
+                rotateLeft(head);
+            }
+        }
+        if(K == 1)
+        {
+            if(root != null)
+            {
+                rotateLeft(root);
+            }
         }
     }
 
